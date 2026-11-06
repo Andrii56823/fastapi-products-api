@@ -33,3 +33,8 @@ Backend REST API built with FastAPI, PostgreSQL, and SQLAlchemy — implementing
 1. Clone the repository
 2. Create a virtual environment and activate it
 3. Install dependencies:
+
+## Database migrations
+
+1. Copy .env.example to .env and set your values
+2. Run: alembic upgrade head
